@@ -12,7 +12,7 @@ export default function Hero({ t }: { t: Dictionary }) {
     >
       <div className="absolute inset-0 -z-10">
         <Image
-          src="https://images.unsplash.com/photo-1610047614301-13c63f00c032?q=80&w=1920&auto=format&fit=crop"
+          src="/images/hero.png"
           alt=""
           fill
           priority

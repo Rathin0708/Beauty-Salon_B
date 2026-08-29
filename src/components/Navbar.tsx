@@ -18,10 +18,10 @@ export default function Navbar({ t }: { t: Dictionary }) {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 inset-x-0 z-50 backdrop-blur-xl backdrop-saturate-150 border-b transition-all duration-300 ${
         scrolled
-          ? "bg-cream/90 backdrop-blur-md shadow-sm"
-          : "bg-transparent"
+          ? "bg-white/55 border-white/40 shadow-[0_8px_30px_-8px_rgba(42,30,26,0.25),inset_0_1px_0_0_rgba(255,255,255,0.6)]"
+          : "bg-white/15 border-white/20 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.35)]"
       }`}
     >
       <nav className="mx-auto max-w-6xl px-5 sm:px-8 flex items-center justify-between h-18 py-3">
@@ -59,7 +59,7 @@ export default function Navbar({ t }: { t: Dictionary }) {
       </nav>
 
       {open && (
-        <div className="md:hidden bg-cream/95 backdrop-blur-md border-t border-rose-soft px-5 pb-6 pt-2 flex flex-col gap-1">
+        <div className="md:hidden bg-white/55 backdrop-blur-xl backdrop-saturate-150 border-t border-white/40 px-5 pb-6 pt-2 flex flex-col gap-1 shadow-[0_8px_30px_-8px_rgba(42,30,26,0.25)]">
           {t.nav.links.map((link) => (
             <a
               key={link.href}
