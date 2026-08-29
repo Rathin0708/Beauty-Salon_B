@@ -18,7 +18,7 @@ const body = Poppins({
 export const metadata: Metadata = {
   title: `${business.name} | Bridal & Family Makeup Studio in Vadakankulam`,
   description:
-    "Yahweh Family Makeup Studio — bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification in Vadakankulam, Tamil Nadu.",
+    `${business.name} — bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification in Vadakankulam, Tamil Nadu.`,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

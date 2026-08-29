@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Heart } from "lucide-react";
 import RevealOnScroll from "./RevealOnScroll";
+import { business } from "@/lib/business";
 import type { Dictionary } from "@/lib/i18n";
 
 export default function About({ t }: { t: Dictionary }) {
@@ -11,7 +12,7 @@ export default function About({ t }: { t: Dictionary }) {
           <div className="relative aspect-4/5 w-full max-w-md mx-auto md:mx-0 overflow-hidden rounded-3xl shadow-xl">
             <Image
               src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1000&auto=format&fit=crop"
-              alt="Yahweh Family Makeup Studio interior"
+              alt={`${business.name} interior`}
               fill
               className="object-cover"
               sizes="(min-width: 768px) 400px, 90vw"
