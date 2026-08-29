@@ -16,9 +16,9 @@ const body = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: `${business.name} | Bridal & Family Makeup Studio in Vadakankulam`,
+  title: `${business.name} | Bridal & Family Makeup Studio in Dubai`,
   description:
-    `${business.name} — bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification in Vadakankulam, Tamil Nadu.`,
+    `${business.name} — bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification in Dubai, United Arab Emirates.`,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

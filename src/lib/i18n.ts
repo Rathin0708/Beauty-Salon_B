@@ -80,7 +80,7 @@ const en: Dictionary = {
     title: "Where every occasion",
     highlight: "gets its glow",
     subtitle:
-      "Vadakankulam's trusted studio for bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification — crafted for your family's biggest moments.",
+      "Dubai's trusted studio for bridal makeup, wedding & event preparation, hairstyling and eyebrow beautification — crafted for your family's biggest moments.",
     primaryCta: "Book an Appointment",
     secondaryCta: "Get Directions",
     ratingSuffix: "rated by our clients",
@@ -88,7 +88,7 @@ const en: Dictionary = {
   about: {
     eyebrow: "About the Studio",
     title: "Family-run, detail-obsessed, always on trend",
-    body: "We've been styling brides, grooms and families in Vadakankulam with a warm, personal touch. Every look is tailored — from soft everyday glam to full bridal transformations — using techniques that hold up through the whole event, not just the photos.",
+    body: "We've been styling brides, grooms and families in Dubai with a warm, personal touch. Every look is tailored — from soft everyday glam to full bridal transformations — using techniques that hold up through the whole event, not just the photos.",
     points: [
       { title: "Bridal Specialists", body: "Complete bridal packages from engagement to reception." },
       { title: "Event-Ready Looks", body: "Makeup and hair built to last through long ceremonies." },
@@ -198,7 +198,7 @@ const en: Dictionary = {
   contact: {
     eyebrow: "Visit Us",
     title: "Plan your visit",
-    subtitle: "We're in the heart of Vadakankulam — reach out to book your slot.",
+    subtitle: "We're in the heart of Dubai — reach out to book your slot.",
     addressLabel: "Address",
     hoursLabel: "Hours",
     phoneLabel: "Phone",
@@ -207,7 +207,7 @@ const en: Dictionary = {
     whatsappCta: "Chat on WhatsApp",
   },
   footer: {
-    tagline: "Bridal & Family Makeup Studio · Vadakankulam",
+    tagline: "Bridal & Family Makeup Studio · Dubai",
     rights: "All rights reserved.",
   },
 };

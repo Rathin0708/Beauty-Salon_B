@@ -11,18 +11,18 @@ export const business = {
   phoneHref: `tel:+${phoneDigitsMasked}`,
   whatsappHref: `https://wa.me/${phoneDigitsMasked}`,
   address: {
-    line1: "Sangunagar",
-    line2: "Vadakankulam, Tamil Nadu 627116",
-    country: "India",
-    full: "Sangunagar, Vadakankulam, Tamil Nadu 627116, India",
+    line1: "Dubai",
+    line2: "United Arab Emirates",
+    country: "United Arab Emirates",
+    full: "Dubai, United Arab Emirates",
   },
   hours: "Open Daily · Closes 9:00 PM",
   mapEmbedSrc:
     "https://www.google.com/maps?q=" +
-    encodeURIComponent(`${name}, Sangunagar, Vadakankulam, Tamil Nadu 627116, India`) +
+    encodeURIComponent(`${name}, Dubai, United Arab Emirates`) +
     "&output=embed",
   mapDirectionsHref:
     "https://www.google.com/maps/search/?api=1&query=" +
-    encodeURIComponent(`${name}, Sangunagar, Vadakankulam, Tamil Nadu 627116, India`),
+    encodeURIComponent(`${name}, Dubai, United Arab Emirates`),
   instagramHref: "https://instagram.com/",
 } as const;
