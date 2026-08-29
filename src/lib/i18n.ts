@@ -37,16 +37,6 @@ export interface Dictionary {
     subtitle: string;
     images: { src: string; alt: string }[];
   };
-  testimonials: {
-    eyebrow: string;
-    title: string;
-    items: {
-      name: string;
-      role: string;
-      quote: string;
-      rating: number;
-    }[];
-  };
   contact: {
     eyebrow: string;
     title: string;
@@ -70,7 +60,6 @@ const en: Dictionary = {
       { href: "#about", label: "About" },
       { href: "#services", label: "Services" },
       { href: "#gallery", label: "Gallery" },
-      { href: "#testimonials", label: "Reviews" },
       { href: "#contact", label: "Contact" },
     ],
     cta: "Book Now",
@@ -167,31 +156,6 @@ const en: Dictionary = {
       {
         src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=900&auto=format&fit=crop",
         alt: "Facial skincare treatment",
-      },
-    ],
-  },
-  testimonials: {
-    eyebrow: "Client Love",
-    title: "What our clients say",
-    items: [
-      {
-        name: "Anthony Fenis",
-        role: "Local Guide",
-        quote: "Good experienced hair dresser, in this locality.",
-        rating: 5,
-      },
-      {
-        name: "Mukil Chand",
-        role: "Wedding & Bridal Client",
-        quote:
-          "Booked them for wedding & event preparation — bridal services and eyebrow beautification were excellent.",
-        rating: 5,
-      },
-      {
-        name: "Joseph Dynish F",
-        role: "Verified Visitor",
-        quote: "A dependable local studio for family occasions.",
-        rating: 4,
       },
     ],
   },

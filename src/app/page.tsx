@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
-import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
@@ -20,7 +19,6 @@ export default function Home() {
         <About t={t} />
         <Services t={t} />
         <Gallery t={t} />
-        <Testimonials t={t} />
         <Contact t={t} />
       </main>
       <Footer t={t} />
